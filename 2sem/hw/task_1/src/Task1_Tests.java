@@ -108,6 +108,20 @@ public class Task1_Tests extends Assert {
         list1.insertListAfter(list1.get(0), list2);
         assertEquals(6, list1.getSize());
     }
+    @Test
+    public void insertListAfter_TwoListsAndUnite_сheckHead(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(1);
+        list.pushFront(2);
+        list.pushFront(3);
+        DoubleLinkedList<Integer> list1 = new DoubleLinkedList<>();
+        list1.pushFront(4);
+        list1.pushFront(5);
+        list1.pushFront(6);
+        list1.insertListAfter(list.get(0), list1);
+        int head = ((Node<Integer>)list.getHead()).getData();
+        assertEquals(1, head);
+    }
 
 
 }
