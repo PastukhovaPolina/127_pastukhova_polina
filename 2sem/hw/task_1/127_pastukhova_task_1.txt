@@ -8,3 +8,4 @@ DoubleLinkedList|33|--size -> ++size|get_PushFrontDoubleLinkedList_сheckGet
 DoubleLinkedList|62| -> size += list.getSize()|insertListAfter_TwoListsAndUnite_сheckSize
 DoubleLinkedList|55|list.getHead().setNext(node); -> list.getHead().setPrev(node);|insertListAfter_TwoListsAndUnite_сheckValues
 DoubleLinkedList|56|list.getTail().setPrev(node.getNext()); -> list.getTail().setNext(node.getNext());|insertListAfter_TwoListsAndUnite_сheckValues
+DoubleLinkedList|28|cur = cur.getPrev(); -> cur = cur.getNext();|pushFront_PushFrontDoubleLinkedList_checkValues
