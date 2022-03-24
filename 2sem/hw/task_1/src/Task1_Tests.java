@@ -95,7 +95,7 @@ public class Task1_Tests extends Assert {
         assertEquals(2, list.getSize());
     }
     @Test
-    public void insertListAfter_CreateTwoListsAndUnite_сheckSize(){
+    public void insertListAfter_TwoListsAndUnite_сheckSize(){
         DoubleLinkedList<Integer> list1 = new DoubleLinkedList<>();
         list1.pushFront(1);
         list1.pushFront(2);
@@ -108,5 +108,6 @@ public class Task1_Tests extends Assert {
         list1.insertListAfter(list1.get(0), list2);
         assertEquals(6, list1.getSize());
     }
+
 
 }
