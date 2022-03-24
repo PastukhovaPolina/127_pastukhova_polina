@@ -1,0 +1,10 @@
+1. DynamicArray| 56 | data[capacity] = value; --> data[size] = value;| DynamicArrayTest
+2. DynamicArray| 21 | if(newSize > 0) --> if(newSize <= 0)| DynamicArrayTest
+3. DynamicArray| 53 | дубликат кода
+4. DoubleLinkedList| 33 | --size --> ++size | DoubleLinkedListTest
+5. DoubleLinkedList| 29 |return (Node<T>) cur --> return cur| DoubleLinkedListTest
+6. DoubleLinkedList| 11 |return dummy == dummy;--> return size == 0;| DoubleLinkedListTest
+
+<имя файла>|<номер_строки>|<до> -> <после>|<имя_теста>
+
+
