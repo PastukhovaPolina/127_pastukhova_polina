@@ -100,7 +100,6 @@ public class Task1_Tests extends Assert {
         list1.pushFront(1);
         list1.pushFront(2);
         list1.pushFront(3);
-
         DoubleLinkedList<Integer> list2 = new DoubleLinkedList<>();
         list2.pushFront(4);
         list2.pushFront(5);
@@ -171,6 +170,30 @@ public class Task1_Tests extends Assert {
         list.remove(list.get(0));
         int num = ((Node<Integer>)list.get(0)).getData();
         assertEquals(2, num);
+    }
+    @Test
+    public void insertListAfter_TwoListsAndUnite2_сheckValues(){
+        DoubleLinkedList<Integer> list1 = new DoubleLinkedList<>();
+        list1.pushFront(1);
+        list1.pushFront(2);
+        list1.pushFront(3);
+        DoubleLinkedList<Integer> list2 = new DoubleLinkedList<>();
+        list2.pushFront(4);
+        list2.pushFront(5);
+        list2.pushFront(6);
+        list1.insertListAfter(list1.get(2), list1);
+        int n = ((Node<Integer>)list1.get(0)).getData();
+        assertEquals(1, n);
+        n = ((Node<Integer>)list1.get(1)).getData();
+        assertEquals(2, n);
+        n = ((Node<Integer>)list1.get(2)).getData();
+        assertEquals(3, n);
+        n = ((Node<Integer>)list1.get(3)).getData();
+        assertEquals(4, n);
+        n = ((Node<Integer>)list1.get(4)).getData();
+        assertEquals(5, n);
+        n = ((Node<Integer>)list1.get(5)).getData();
+        assertEquals(6, n);
     }
 
 
