@@ -128,13 +128,11 @@ public class Task1_Tests extends Assert {
         list1.pushFront(1);
         list1.pushFront(5);
         list1.pushFront(6);
-
         DoubleLinkedList<Integer> list2 = new DoubleLinkedList<>();
         list2.pushFront(2);
         list2.pushFront(3);
         list2.pushFront(4);
         list1.insertListAfter(list1.get(0), list1);
-
         int n = ((Node<Integer>)list1.get(0)).getData();
         assertEquals(1, n);
         n = ((Node<Integer>)list1.get(1)).getData();
