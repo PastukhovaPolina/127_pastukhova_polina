@@ -172,7 +172,7 @@ public class Task1_Tests extends Assert {
         assertEquals(2, num);
     }
     @Test
-    public void insertListAfter_TwoListsAndUnite2_сheckValues(){
+    public void insertListAfter_TwoListsAndUnite2_сheckValues(){ //перепутала русскую "с"
         DoubleLinkedList<Integer> list1 = new DoubleLinkedList<>();
         list1.pushFront(1);
         list1.pushFront(2);
@@ -208,6 +208,32 @@ public class Task1_Tests extends Assert {
         list1.insertListBefore(list1.get(0), list2);
         assertEquals(6, list1.getSize());
     }
+    @Test
+    public void insertListBefore_DoubleLinkedList_checkValues(){
+        DoubleLinkedList<Integer> list1 = new DoubleLinkedList<>();
+        list1.pushFront(4);
+        list1.pushFront(5);
+        list1.pushFront(6);
+        DoubleLinkedList<Integer> list2 = new DoubleLinkedList<>();
+        list2.pushFront(1);
+        list2.pushFront(2);
+        list2.pushFront(3);
+        list1.insertListBefore(list1.get(0), list2);
+        int n = ((Node<Integer>)list1.get(0)).getData();
+        assertEquals(1, n);
+        n = ((Node<Integer>)list1.get(1)).getData();
+        assertEquals(2, n);
+        n = ((Node<Integer>)list1.get(2)).getData();
+        assertEquals(3, n);
+        n = ((Node<Integer>)list1.get(3)).getData();
+        assertEquals(4, n);
+        n = ((Node<Integer>)list1.get(4)).getData();
+        assertEquals(5, n);
+        n = ((Node<Integer>)list1.get(5)).getData();
+        assertEquals(6, n);
+    }
+
+
 
 
 
