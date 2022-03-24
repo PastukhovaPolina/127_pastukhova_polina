@@ -85,5 +85,14 @@ public class Task1_Tests extends Assert {
         int n = ((Node<Integer>)list.get(0)).getData();
         assertEquals(1, n);
     }
+    @Test
+    public void remove_PushFrontDoubleLinkedList_CheckSizeRemove(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(1);
+        list.pushFront(2);
+        list.pushFront(3);
+        list.remove(list.get(0));
+        assertEquals(2, list.getSize());
+    }
 
 }
