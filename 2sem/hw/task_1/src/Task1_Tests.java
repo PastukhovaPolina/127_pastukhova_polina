@@ -162,6 +162,16 @@ public class Task1_Tests extends Assert {
         n = ((Node<Integer>)list.get(3)).getData();
         assertEquals(4, n);
     }
+    @Test
+    public void remove_RemoveAnyElement_checkValue(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(1);
+        list.pushFront(2);
+        list.pushFront(3);
+        list.remove(list.get(0));
+        int num = ((Node<Integer>)list.get(0)).getData();
+        assertEquals(2, num);
+    }
 
 
 
