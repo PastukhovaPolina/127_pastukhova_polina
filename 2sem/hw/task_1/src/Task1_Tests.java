@@ -314,6 +314,16 @@ public class Task1_Tests extends Assert {
             assertEquals("Index out of bounds", some.getMessage());
         }
     }
+    @Test
+    public void set_SetNumbers_checkValues(){
+        DynamicArray<Integer> array = new DynamicArray<>(3);
+        array.set(0, 1);
+        array.set(1, 2);
+        array.set(2, 3);
+        assertEquals(1, array.get(0).intValue());
+        assertEquals(2, array.get(1).intValue());
+        assertEquals(3, array.get(2).intValue());
+    }
 
 
 
