@@ -17,3 +17,5 @@ DoubleLinkedList|68|list.getTail().setPrev(node); -> list.getTail().setNext(node
 Node|13|this.next = prev; -> this.next = next;|pushFront_PushFrontDoubleLinkedList_checkValues
 Node|14|this.prev = next; -> this.prev = prev;|pushFront_PushFrontDoubleLinkedList_checkValues
 DynamicArray|11|size = 1 -> size = DefaultSize|array_isEmptyArray_checkSize
+DynamicArray|21|if(newSize > 0) -> if(newSize < 0)|resize_DynamicArray_checkSize
+
