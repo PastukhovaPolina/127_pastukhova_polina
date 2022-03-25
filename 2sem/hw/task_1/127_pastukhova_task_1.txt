@@ -22,3 +22,4 @@ DynamicArray|27|newSize = size -> size = newSize|resize_DynamicArray_checkSize
 DynamicArray|30|if(index < 0 || index > size) -> if(index < 0 || index >= size)|get_Index2_exception
 DynamicArray|35|if(index < 0 || index > size) -> if(index < 0 || index >= size)|set_Index_checkException2
 DynamicArray|40|if(index < 0 || index > size) -> if(index < 0 || index >= size)|insert_DynamicArray_checkException2
+DynamicArray|15|data = new Object[capacity] -> data = new Object[size]|set_SetNumbers_checkValues
