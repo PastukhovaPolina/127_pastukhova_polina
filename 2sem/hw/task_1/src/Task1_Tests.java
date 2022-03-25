@@ -232,6 +232,12 @@ public class Task1_Tests extends Assert {
         n = ((Node<Integer>)list1.get(5)).getData();
         assertEquals(6, n);
     }
+    @Test
+    public void array_fillArray_checkSize(){
+        DynamicArray<Integer> array = new DynamicArray<>(10);
+        assertEquals(10, array.getSize());
+    }
+
 
 
 
