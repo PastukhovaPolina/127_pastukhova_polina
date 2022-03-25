@@ -18,4 +18,5 @@ Node|13|this.next = prev; -> this.next = next;|pushFront_PushFrontDoubleLinkedLi
 Node|14|this.prev = next; -> this.prev = prev;|pushFront_PushFrontDoubleLinkedList_checkValues
 DynamicArray|11|size = 1 -> size = DefaultSize|array_isEmptyArray_checkSize
 DynamicArray|21|if(newSize > 0) -> if(newSize < 0)|resize_DynamicArray_checkSize
+DynamicArray|27|newSize = size -> size = newSize|resize_DynamicArray_checkSize
 
