@@ -23,3 +23,5 @@ DynamicArray|30|if(index < 0 || index > size) -> if(index < 0 || index >= size)|
 DynamicArray|35|if(index < 0 || index > size) -> if(index < 0 || index >= size)|set_Index_checkException2
 DynamicArray|40|if(index < 0 || index > size) -> if(index < 0 || index >= size)|insert_DynamicArray_checkException2
 DynamicArray|15|data = new Object[capacity] -> data = new Object[size]|set_SetNumbers_checkValues
+DynamicArray|42|if(capacity < size) { -> if(capacity <= size) {|insert_DynamicArray_checkValues2
+DynamicArray|49|data[size] = value -> data[index] = value;|insert_DynamicArray_checkValues2
