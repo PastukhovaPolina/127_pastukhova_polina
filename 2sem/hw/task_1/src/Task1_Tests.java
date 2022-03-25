@@ -354,6 +354,17 @@ public class Task1_Tests extends Assert {
         assertEquals(4, array.get(3).intValue());
         assertEquals(5, array.get(4).intValue());
     }
+    @Test
+    public void popBack_DynamicArray_checkException(){
+        DynamicArray<Integer> array = new DynamicArray<>(0);
+        try {
+            array.popBack();
+            fail();
+        }
+        catch (Exception some) {
+            assertEquals("Array is empty", some.getMessage());
+        }
+    }
 
 
 
