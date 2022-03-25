@@ -19,4 +19,4 @@ Node|14|this.prev = next; -> this.prev = prev;|pushFront_PushFrontDoubleLinkedLi
 DynamicArray|11|size = 1 -> size = DefaultSize|array_isEmptyArray_checkSize
 DynamicArray|21|if(newSize > 0) -> if(newSize < 0)|resize_DynamicArray_checkSize
 DynamicArray|27|newSize = size -> size = newSize|resize_DynamicArray_checkSize
-
+DynamicArray|30|if(index < 0 || index > size) -> if(index < 0 || index >= size)|get_Index2_exception

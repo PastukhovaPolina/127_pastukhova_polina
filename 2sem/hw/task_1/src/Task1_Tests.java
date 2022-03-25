@@ -267,7 +267,7 @@ public class Task1_Tests extends Assert {
             fail();
         }
         catch (IndexOutOfBoundsException some) {
-            assertEquals("Index out of b", some.getMessage());
+            assertEquals("Index out of bounds", some.getMessage());
         }
     }
 
