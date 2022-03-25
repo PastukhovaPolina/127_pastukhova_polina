@@ -240,8 +240,9 @@ public class Task1_Tests extends Assert {
     @Test
     public void array_isEmptyArray_checkSize(){
         DynamicArray<Integer> array = new DynamicArray<>();
-        assertEquals(1000, array.getSize());
+        assertEquals(1024, array.getSize());
     }
+    
 
 
 
