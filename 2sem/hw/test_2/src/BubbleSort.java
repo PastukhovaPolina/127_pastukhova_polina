@@ -5,7 +5,7 @@ public class BubbleSort<T> implements Sort<T> {
             for(int i = 0; i < data.length - sps; ++i) {
                 if(comparator.compare(data[i - 1], data[i]) < 0) {
                     T tmp = data[i - 1];
-                    data[i - 1] = data[i];
+                    data[i - 1] = data[i+1];
                     data[i] = tmp;
                 }
             }
