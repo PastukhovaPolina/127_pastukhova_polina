@@ -30,4 +30,11 @@ public class Task2_Tests extends Assert {
         bubbleSort.sort(d, new ComparatorTest());
         assertArrayEquals(new Integer[]{111, 577, 900, 987654321,123456789 }, d);
     }
+    @Test
+    public void bubbleSort_BubbleSort_firstS() {
+        BubbleSort<Integer> bubbleSort = new BubbleSort<>();
+        Integer[] d = {78, 10, 1};
+        bubbleSort.sort(d, new ComparatorTest());
+        assertArrayEquals(new Integer[]{1, 10, 78}, d);
+    }
 }
