@@ -76,5 +76,14 @@ public class Task2_Tests extends Assert {
         insertionSort.sort(d, new ComparatorTest());
         assertArrayEquals(new Integer[]{5}, d);
     }
+    @Test
+    public void insertionSort_sortingConsecutiveNumbersArray() {
+        Sort<Integer> insertionSort = new InsertionSort<>();
+        Integer[] d = {1, 2, 3, 4 };
+        insertionSort.sort(d, new ComparatorTest());
+        assertArrayEquals(new Integer[]{1, 2, 3, 4 }, d);
+    }
+
+
 
 }
