@@ -8,11 +8,19 @@ public class Task2_Tests extends Assert {
             return first - second;
         }
     }
+
     @Test
     public void bubbleSort_BubbleSort_checkElement() {
         Integer[] data = {5};
         BubbleSort<Integer> bubbleSort = new BubbleSort<>();
         bubbleSort.sort(data, new ComparatorTest());
         assertArrayEquals(new Integer[]{5}, data);
+    }
+    @Test
+    public void bubbleSort_BubbleSort_sortingConsecutiveNumbersArray() {
+        Integer[] data = {1, 2, 3, 4, 5, 6, 7};
+        BubbleSort<Integer> bubbleSort = new BubbleSort<>();
+        bubbleSort.sort(data, new ComparatorTest());
+        assertArrayEquals(new Integer[]{1, 2, 3, 4, 5, 6, 7}, data);
     }
 }
