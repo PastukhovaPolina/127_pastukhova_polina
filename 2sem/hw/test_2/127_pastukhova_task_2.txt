@@ -11,3 +11,4 @@ SelectionSort|4|for(int sortedSize = 1; sortedSize < data.length - 1; ++sortedSi
 
 
 InsertionSort|6|while (cur > 0 && comparator.compare(data[cur - 1], data[cur]) <= 0){ -> while (cur > 0 && comparator.compare(data[cur - 1], data[cur]) > 0){|insertionSort_sortingConsecutiveNumbersArray
+InsertionSort|8|++cur; -> --cur;|insertionSort_sortingRandomNumbersArray

@@ -88,7 +88,7 @@ public class Task2_Tests extends Assert {
         Integer[] d = {577, 987654321,900,111, 123456789};
         Sort<Integer> insertionSort = new InsertionSort<>();
         insertionSort.sort(d, new ComparatorTest());
-        assertArrayEquals(new Integer[]{111, 577, 900, 987654321,123456789}, d);
+        assertArrayEquals(new Integer[]{111, 577, 900,123456789 ,987654321}, d);
     }
 
 
