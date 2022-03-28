@@ -55,10 +55,10 @@ public class Task2_Tests extends Assert {
     }
     @Test
     public void selectionSort_SelectionSort_sortingRandomNumbersArray() {
-        Integer[] d = {12345,23456,76, 123 };
+        Integer[] d = {577, 987654321,900,111, 123456789 };
         Sort<Integer> selectionSort = new SelectionSort<>();
         selectionSort.sort(d, new ComparatorTest());
-        assertArrayEquals(new Integer[]{76, 123, 12345, 23456}, d);
+        assertArrayEquals(new Integer[]{111, 577, 900, 987654321,123456789}, d);
     }
 
 }

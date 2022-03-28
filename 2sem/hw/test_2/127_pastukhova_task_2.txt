@@ -6,3 +6,4 @@ BubbleSort|4|for(int sps = 1; sps < data.length - 1; ++sps) { -> for(int sps = 0
 SelectionSort|8|maxInd = sortedSize; -> maxInd = i;|selectionSort_SelectionSort_sortingConsecutiveNumbersArray
 SelectionSort|10|T tmp = data[data.length - sortedSize]; -> T tmp = data[data.length-1 - sortedSize];|selectionSort_SelectionSort_sortingConsecutiveNumbersArray
 SelectionSort|11|data[data.length - sortedSize] = data[maxInd]; -> data[data.length-1 - sortedSize] = data[maxInd];|selectionSort_SelectionSort_sortingConsecutiveNumbersArray
+SelectionSort|5|int maxInd = 1; -> int maxInd = 0;|selectionSort_SelectionSort_sortingRandomNumbersArray
