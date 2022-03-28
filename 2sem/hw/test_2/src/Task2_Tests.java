@@ -68,4 +68,13 @@ public class Task2_Tests extends Assert {
         assertArrayEquals(new Integer[]{1,10,78 }, d);
     }
 
+
+    @Test
+    public void insertionSort_checkElement() {
+        Integer[] d = {5};
+        Sort<Integer> insertionSort = new InsertionSort<>();
+        insertionSort.sort(d, new ComparatorTest());
+        assertArrayEquals(new Integer[]{5}, d);
+    }
+
 }
