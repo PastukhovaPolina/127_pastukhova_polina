@@ -97,9 +97,4 @@ public class Task2_Tests extends Assert {
         insertionSort.sort(d, new ComparatorTest());
         assertArrayEquals(new Integer[]{1,10,78}, d);
     }
-
-
-
-
-
 }
