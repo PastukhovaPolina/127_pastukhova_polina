@@ -53,4 +53,12 @@ public class Task2_Tests extends Assert {
         selectionSort.sort(d, new ComparatorTest());
         assertArrayEquals(new Integer[]{1, 2, 3, 4, 5}, d);
     }
+    @Test
+    public void selectionSort_SelectionSort_sortingRandomNumbersArray() {
+        Integer[] d = {12345,23456,76, 123 };
+        Sort<Integer> selectionSort = new SelectionSort<>();
+        selectionSort.sort(d, new ComparatorTest());
+        assertArrayEquals(new Integer[]{76, 123, 12345, 23456}, d);
+    }
+
 }
