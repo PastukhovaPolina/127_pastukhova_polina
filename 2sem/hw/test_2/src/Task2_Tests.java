@@ -37,4 +37,20 @@ public class Task2_Tests extends Assert {
         bubbleSort.sort(d, new ComparatorTest());
         assertArrayEquals(new Integer[]{1, 10, 78}, d);
     }
+
+
+    @Test
+    public void selectionSort_SelectionSort_checkElement() {
+        Integer[] d = {5};
+        Sort<Integer> selectionSort = new SelectionSort<>();
+        selectionSort.sort(d, new ComparatorTest());
+        assertArrayEquals(new Integer[]{5}, d);
+    }
+    @Test
+    public void selectionSort_SelectionSort_sortingConsecutiveNumbersArray() {
+        Sort<Integer> selectionSort = new SelectionSort<>();
+        Integer[] d = {1, 2, 3, 4};
+        selectionSort.sort(d, new ComparatorTest());
+        assertArrayEquals(new Integer[]{1, 2, 3, 4}, d);
+    }
 }
