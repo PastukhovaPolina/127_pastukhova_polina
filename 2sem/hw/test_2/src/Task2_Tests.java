@@ -60,5 +60,12 @@ public class Task2_Tests extends Assert {
         selectionSort.sort(d, new ComparatorTest());
         assertArrayEquals(new Integer[]{111, 577, 900, 987654321,123456789}, d);
     }
+    @Test
+    public void selectionSort_firstS() {
+        Integer[] d = {78,10,1 };
+        Sort<Integer> selectionSort = new SelectionSort<>();
+        selectionSort.sort(d, new ComparatorTest());
+        assertArrayEquals(new Integer[]{1,10,78 }, d);
+    }
 
 }
