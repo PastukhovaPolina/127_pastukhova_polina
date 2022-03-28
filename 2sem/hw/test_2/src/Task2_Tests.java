@@ -26,9 +26,9 @@ public class Task2_Tests extends Assert {
     @Test
     public void bubbleSort_BubbleSort_sortingRandomNumbersArray() {
         BubbleSort<Integer> bubbleSort = new BubbleSort<>();
-        Integer[] d = {577, 987654321, 900, 111, 123456789};
+        Integer[] d = {577, 1009, 900, 111, 123456789};
         bubbleSort.sort(d, new ComparatorTest());
-        assertArrayEquals(new Integer[]{111, 577, 900, 987654321,123456789 }, d);
+        assertArrayEquals(new Integer[]{111, 577, 900, 1009,123456789 }, d);
     }
     @Test
     public void bubbleSort_BubbleSort_firstS() {
@@ -55,10 +55,10 @@ public class Task2_Tests extends Assert {
     }
     @Test
     public void selectionSort_SelectionSort_sortingRandomNumbersArray() {
-        Integer[] d = {577, 987654321,900,111, 123456789 };
+        Integer[] d = {577, 1009,900,111, 123456789 };
         Sort<Integer> selectionSort = new SelectionSort<>();
         selectionSort.sort(d, new ComparatorTest());
-        assertArrayEquals(new Integer[]{111, 577, 900, 987654321,123456789}, d);
+        assertArrayEquals(new Integer[]{111, 577, 900,1009,123456789 }, d);
     }
     @Test
     public void selectionSort_firstS() {
@@ -85,11 +85,19 @@ public class Task2_Tests extends Assert {
     }
     @Test
     public void insertionSort_sortingRandomNumbersArray() {
-        Integer[] d = {577, 987654321,900,111, 123456789};
+        Integer[] d = {577, 1009,900,111, 123456789};
         Sort<Integer> insertionSort = new InsertionSort<>();
         insertionSort.sort(d, new ComparatorTest());
-        assertArrayEquals(new Integer[]{111, 577, 900,123456789 ,987654321}, d);
+        assertArrayEquals(new Integer[]{111, 577, 900, 1009, 123456789}, d);
     }
+    @Test
+    public void insertionSort_firstS() {
+        Sort<Integer> insertionSort = new InsertionSort<>();
+        Integer[] d = {78,10,1};
+        insertionSort.sort(d, new ComparatorTest());
+        assertArrayEquals(new Integer[]{1,10,78}, d);
+    }
+
 
 
 
