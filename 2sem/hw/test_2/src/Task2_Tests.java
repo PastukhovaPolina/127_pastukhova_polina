@@ -49,8 +49,8 @@ public class Task2_Tests extends Assert {
     @Test
     public void selectionSort_SelectionSort_sortingConsecutiveNumbersArray() {
         Sort<Integer> selectionSort = new SelectionSort<>();
-        Integer[] d = {1, 2, 3, 4};
+        Integer[] d = {1, 2, 3, 4, 5};
         selectionSort.sort(d, new ComparatorTest());
-        assertArrayEquals(new Integer[]{1, 2, 3, 4}, d);
+        assertArrayEquals(new Integer[]{1, 2, 3, 4, 5}, d);
     }
 }
