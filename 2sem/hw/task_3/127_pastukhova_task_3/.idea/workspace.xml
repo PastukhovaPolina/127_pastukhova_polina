@@ -47,7 +47,17 @@
       <recent name="C:\Users\A\Documents\GitHub\127_pastukhova_polina\2sem\hw\task_3\127_pastukhova_task_3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task3_Tests.heapSort_sortArray_sortTwoElem">
+  <component name="RunManager" selected="JUnit.Task3_Tests.heapSort_array_arraySame">
+    <configuration name="Task3_Tests.heapSort_array_arraySame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="127_pastukhova_task_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task3_Tests" />
+      <option name="METHOD_NAME" value="heapSort_array_arraySame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task3_Tests.heapSort_sortArray_sortTwoElem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="127_pastukhova_task_3" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,16 +73,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task3_Tests" />
       <option name="METHOD_NAME" value="mergeSort_array_sort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3_Tests.mergeSort_array_sortFirstEl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="127_pastukhova_task_3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task3_Tests" />
-      <option name="METHOD_NAME" value="mergeSort_array_sortFirstEl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task3_Tests.heapSort_array_arraySame" />
         <item itemvalue="JUnit.Task3_Tests.heapSort_sortArray_sortTwoElem" />
         <item itemvalue="JUnit.Task3_Tests.mergeSort_array_sort" />
         <item itemvalue="JUnit.Task3_Tests.mergeSort_array_sortTwoSameElem" />
         <item itemvalue="JUnit.Task3_Tests.mergeSort_sortedArray_array" />
-        <item itemvalue="JUnit.Task3_Tests.mergeSort_array_sortFirstEl" />
       </list>
     </recent_temporary>
   </component>
