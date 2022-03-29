@@ -10,8 +10,8 @@ public class QuickSort<T> implements Sort<T> {
         if(b >= e)
             return;
         int base = split(data, b, e);
-        qSortRec(data, b, base - 2);
-        qSortRec(data, base + 2, e);
+        qSortRec(data, b, base - 1);
+        qSortRec(data, base + 1, e);
     }
 
     private int split(T[] data, int b, int e) {
