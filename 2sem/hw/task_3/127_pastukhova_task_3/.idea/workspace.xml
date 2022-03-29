@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bd6d810-aa44-4d5c-87d5-a0d152770d95" name="Changes" comment="тест mergeSort_array_sortTwoSameElem">
-      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
+    <list default="true" id="8bd6d810-aa44-4d5c-87d5-a0d152770d95" name="Changes" comment="тест">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/Task3_Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/Task3_Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task3_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task3_Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +208,35 @@
       <option name="project" value="LOCAL" />
       <updated>1648586360320</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="исправила">
+      <created>1648586467199</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648586467199</updated>
+    </task>
+    <task id="LOCAL-00015" summary="тест">
+      <created>1648586601445</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648586601445</updated>
+    </task>
+    <task id="LOCAL-00016" summary="испр">
+      <created>1648586658509</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648586658509</updated>
+    </task>
+    <task id="LOCAL-00017" summary="тест">
+      <created>1648586749586</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1648586749586</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,10 +255,10 @@
     <MESSAGE value="тест quickSort_sortArray_sortSameElements" />
     <MESSAGE value="исп" />
     <MESSAGE value="тест mergeSort_array_sortFirstEl" />
+    <MESSAGE value="тест mergeSort_array_sortTwoSameElem" />
+    <MESSAGE value="исправила" />
     <MESSAGE value="испр" />
     <MESSAGE value="тест" />
-    <MESSAGE value="исправила" />
-    <MESSAGE value="тест mergeSort_array_sortTwoSameElem" />
-    <option name="LAST_COMMIT_MESSAGE" value="тест mergeSort_array_sortTwoSameElem" />
+    <option name="LAST_COMMIT_MESSAGE" value="тест" />
   </component>
 </project>
