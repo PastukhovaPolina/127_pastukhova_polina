@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bd6d810-aa44-4d5c-87d5-a0d152770d95" name="Changes" comment="исп">
+    <list default="true" id="8bd6d810-aa44-4d5c-87d5-a0d152770d95" name="Changes" comment="тест">
       <change beforePath="$PROJECT_DIR$/../127_pastukhova_task_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../127_pastukhova_task_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/Task3_Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/Task3_Tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task3_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task3_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648585399892</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="тест">
+      <created>1648585531034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648585531034</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,10 +170,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <MESSAGE value="тест" />
     <MESSAGE value="исправила" />
     <MESSAGE value="тест quickSort_sortArray_sortSameElements" />
     <MESSAGE value="исп" />
-    <option name="LAST_COMMIT_MESSAGE" value="исп" />
+    <MESSAGE value="тест" />
+    <option name="LAST_COMMIT_MESSAGE" value="тест" />
   </component>
 </project>
