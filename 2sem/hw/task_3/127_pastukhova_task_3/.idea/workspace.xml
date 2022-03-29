@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bd6d810-aa44-4d5c-87d5-a0d152770d95" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/127_pastukhova_task_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/127_pastukhova_task_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/HeapSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/MyComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/Task3_Tests$ComparatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/127_pastukhova_task_3/Task3_Tests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task3_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task3_Tests.java" afterDir="false" />
-    </list>
+    <list default="true" id="8bd6d810-aa44-4d5c-87d5-a0d152770d95" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +52,29 @@
       <option name="presentableId" value="Default" />
       <updated>1648583854018</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1648584446500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648584446500</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
