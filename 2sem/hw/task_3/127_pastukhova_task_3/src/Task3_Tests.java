@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.*;
 
 public class Task3_Tests extends Assert {
-    class ComparatorTest implements MyComparator<Integer> {
+    class TestComparator implements MyComparator<Integer> {
         @Override
         public int compare(Integer first, Integer second) {
             return first - second;
@@ -10,10 +10,10 @@ public class Task3_Tests extends Assert {
     }
 
     @Test
-    public void quickSort_sortArray_twoElements() {
+    public void quickSort_sortArray_sortTwoElements() {
         Integer[] array = new Integer[]{10, 4};
         QuickSort<Integer> quickSort = new QuickSort();
-        quickSort.sort(array, new ComparatorTest() );
-        assertArrayEquals(new Integer[]{4, 10}, array) ;
+        quickSort.sort(array, new TestComparator());
+        assertArrayEquals(new Integer[]{2, 10}, array);
     }
 }
