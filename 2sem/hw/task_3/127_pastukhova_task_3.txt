@@ -7,3 +7,5 @@ QuickSort|14|qSortRec(data, base + 2, e); -> qSortRec(data, base + 1, e);|quickS
 MergeSort|19|merge(buffer, sorting, begin, middle - begin, end - middle); -> merge(buffer, sorting, begin, middle - begin+1, end - middle);|mergeSort_sortArray_sortTwoElements
 MergeSort|35| else if (comparator.compare(from[firstFocus], from[secondFocus]) > 0) ->  else if (comparator.compare(from[firstFocus], from[secondFocus]) < 0)|mergeSort_sortArray_sortTwoElements
 MergeSort|17| mergeSortRec(sorting, buffer, begin, middle); -> mergeSortRec(buffer,sorting, begin, middle); |mergeSort_array_sortFirstEl
+MergeSort|32| to[resPos] = from[secondFocus++]; -> to[resPos++] = from[secondFocus++];|mergeSort_sortedArray_array
+MergeSort|18| mergeSortRec(sorting, buffer, middle + 1, end); -> mergeSortRec(buffer,sorting, middle + 1, end);|mergeSort_array_sortTwoSameElem

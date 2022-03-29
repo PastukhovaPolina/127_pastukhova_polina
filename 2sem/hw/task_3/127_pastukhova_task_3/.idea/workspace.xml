@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bd6d810-aa44-4d5c-87d5-a0d152770d95" name="Changes" comment="испр">
-      <change beforePath="$PROJECT_DIR$/src/Task3_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task3_Tests.java" afterDir="false" />
+    <list default="true" id="8bd6d810-aa44-4d5c-87d5-a0d152770d95" name="Changes" comment="тест mergeSort_array_sortTwoSameElem">
+      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +185,28 @@
       <option name="project" value="LOCAL" />
       <updated>1648586019237</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="тест">
+      <created>1648586145357</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648586145357</updated>
+    </task>
+    <task id="LOCAL-00012" summary="исправила">
+      <created>1648586240609</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648586240609</updated>
+    </task>
+    <task id="LOCAL-00013" summary="тест mergeSort_array_sortTwoSameElem">
+      <created>1648586360320</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648586360320</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,10 +224,11 @@
     <MESSAGE value="1" />
     <MESSAGE value="тест quickSort_sortArray_sortSameElements" />
     <MESSAGE value="исп" />
-    <MESSAGE value="тест" />
-    <MESSAGE value="исправила" />
     <MESSAGE value="тест mergeSort_array_sortFirstEl" />
     <MESSAGE value="испр" />
-    <option name="LAST_COMMIT_MESSAGE" value="испр" />
+    <MESSAGE value="тест" />
+    <MESSAGE value="исправила" />
+    <MESSAGE value="тест mergeSort_array_sortTwoSameElem" />
+    <option name="LAST_COMMIT_MESSAGE" value="тест mergeSort_array_sortTwoSameElem" />
   </component>
 </project>
