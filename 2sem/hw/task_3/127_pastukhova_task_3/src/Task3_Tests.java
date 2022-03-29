@@ -86,5 +86,12 @@ public class Task3_Tests extends Assert {
         heapSort.sort(array, new TestComparator());
         assertArrayEquals(new Integer[]{2,3,4}, array);
     }
+    @Test
+    public void heapSort_array_sort(){
+        Integer[] array = new Integer[]{5,1,3,1,1,3};
+        HeapSort<Integer> heapSort = new HeapSort();
+        heapSort.sort(array, new TestComparator());
+        assertArrayEquals(new Integer[]{1,1,1,3,3,5}, array);
+    }
 
 }
