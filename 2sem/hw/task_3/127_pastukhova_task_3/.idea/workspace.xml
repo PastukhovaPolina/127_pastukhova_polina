@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bd6d810-aa44-4d5c-87d5-a0d152770d95" name="Changes" comment="исправила">
-      <change beforePath="$PROJECT_DIR$/src/Task3_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task3_Tests.java" afterDir="false" />
+    <list default="true" id="8bd6d810-aa44-4d5c-87d5-a0d152770d95" name="Changes" comment="тест quickSort_sortArray_sortSameElements">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648584746957</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="тест quickSort_sortArray_sortSameElements">
+      <created>1648584992063</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648584992063</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +128,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="тест" />
     <MESSAGE value="исправила" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправила" />
+    <MESSAGE value="тест quickSort_sortArray_sortSameElements" />
+    <option name="LAST_COMMIT_MESSAGE" value="тест quickSort_sortArray_sortSameElements" />
   </component>
 </project>
