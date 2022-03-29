@@ -12,7 +12,7 @@ public class Task3_Tests extends Assert {
     @Test
     public void quickSort_sortArray_sortTwoElements() {
         Integer[] array = new Integer[]{10, 4};
-        QuickSort<Integer> quickSort = new QuickSort();
+        QuickSort<Integer> quickSort = new QuickSort<>();
         quickSort.sort(array, new TestComparator());
         assertArrayEquals(new Integer[]{4, 10}, array);
     }
