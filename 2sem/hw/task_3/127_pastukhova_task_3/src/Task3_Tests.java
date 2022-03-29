@@ -16,4 +16,11 @@ public class Task3_Tests extends Assert {
         quickSort.sort(array, new TestComparator());
         assertArrayEquals(new Integer[]{4, 10}, array);
     }
+    @Test
+    public void quickSort_sortArray_sortSameElements(){
+        Integer[] array = new Integer[]{2,10,2,3};
+        QuickSort<Integer> quickSort = new QuickSort();
+        quickSort.sort(array, new TestComparator());
+        assertArrayEquals(new Integer[]{2,2,3, 10}, array);
+    }
 }
