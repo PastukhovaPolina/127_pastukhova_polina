@@ -44,5 +44,12 @@ public class Task3_Tests extends Assert {
         mergeSort.sort(array, new TestComparator());
         assertArrayEquals(new Integer[]{5,6, 8}, array);
     }
+    @Test
+    public void mergeSort_sortedArray_array(){
+        Integer[] array = new Integer[]{1,2,3,4};
+        MergeSort<Integer> mergeSort = new MergeSort();
+        mergeSort.sort(array, new TestComparator());
+        assertArrayEquals(new Integer[]{1,2,3,4}, array);
+    }
 
 }
